@@ -1,0 +1,192 @@
+body{
+    margin:0px;
+}
+
+
+
+.Encabezado{
+	height:1000px;
+	width: 1500px;
+	background-image: url("IMG/header.jpg");
+	margin:auto;
+}
+
+.Marca-encabezado{
+    color: white;
+    font-size:50px;
+    margin-top:0px;
+    margin-right: 500px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.menu ul ol{
+   
+   color:White;
+   font-size: 25px;
+   text-align: left;
+   display:inline-block;
+   margin-top: 50px;
+}
+.Titulo-menu{
+	display: flex;
+	flex-direction: row; 
+
+
+}
+.Titulo-encabezado h1{
+	color: white;
+	font-size: 45px;
+	margin-top:550px;
+	margin-left: 40px;
+	font-family: Helvetica;
+}
+#Titulo-info{
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.Contenedor-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+#Informacion-cuerpo{	
+	margin: 40px;
+	text-align: center;
+}
+#Informacion-cuerpo i{	
+	color:orange;
+	font-size: 70px;
+}
+#Informacion-cuerpo h4{	
+	font-size: 40px;
+	font-family: Helvetica;
+}
+#Informacion-cuerpo p{	
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+#Informacion-card{	
+	margin: 40px;
+	border: 1px solid;
+	border-color: #676D75;
+	background-color: #DBD8D7;
+	width: 400px;
+}
+
+.Imagen-publicidad{
+	width: 400px; 
+	height: 300px;
+}
+
+#Informacion-card h4{
+	font-size: 30px;
+	font-family: Helvetica;
+	margin-left: 10px; 
+}
+
+#Informacion-card p{
+	font-size: 20px;
+	font-family: Helvetica;
+	margin-left: 10px; 
+}
+#Precio-casa{
+	color:green;
+}
+.Iconos-publicidad{
+	display: flex;
+	justify-content: space-around;
+	font-size: 50px;
+	margin-bottom: 15px;
+
+}
+#Numero-icono{
+	display: inline;
+
+}
+#Boton-icono{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+#Boton-icono button{
+	color:white;
+	background-color: orange;
+	border: 1px solid orange;
+	padding: 10px 30px;
+}
+#Boton-mas-carta{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 15px;
+	margin-right: 365px;
+}
+#Boton-mas-carta button{
+	color:white;
+	background-color: green;
+	border: 1px solid green;
+	padding: 10px 30px;
+}
+.Pie-pagina{
+	height:672px;
+	width: 1500px;
+	background-image: url("IMG/encuentra.jpg");
+	margin:auto;
+}
+
+.Pie-pagina h4{
+
+	color: white;
+	font-size: 50px;
+	font-family: Helvetica;
+}
+.Pie-pagina p{
+
+	color: white;
+	font-size: 35px;
+	font-family: Helvetica;
+}
+#Boton-baner{	
+	margin-bottom: 15px;
+}
+#Boton-baner button{
+	color:white;
+	background-color: orange;
+	border: 1px solid orange;
+	padding: 20px 60px;
+	font-size: 25px;
+}
+#Contenedor-form{
+	display: flex;
+	flex-direction: column;
+	margin:auto;
+	padding: 50px 150px;
+}
+.Contenedor-pie-pagina{
+	background-color: #251b18;
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
+
+}
+.menu-baner ul ol{
+   
+   color:White;
+   font-size: 25px;
+   text-align: left;  
+   margin-top: 50px;
+   display: inline; 
+
+}
+.Contenedor-pie-pagina p{
+	padding-right: 50px;
+	font-size: 20px;
+	display: flex;
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
